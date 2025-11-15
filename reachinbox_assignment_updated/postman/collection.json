@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "ReachInbox Postman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/health",
+          "host": [
+            "http://localhost:3000"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ingest demo",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "http://localhost:3000/mock/ingest",
+          "host": [
+            "http://localhost:3000"
+          ],
+          "path": [
+            "mock",
+            "ingest"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Search emails",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/emails?q=interested",
+          "host": [
+            "http://localhost:3000"
+          ],
+          "path": [
+            "emails"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "interested"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

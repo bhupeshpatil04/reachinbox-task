@@ -1,0 +1,32 @@
+[
+  {
+    "account": "test1@example.com",
+    "folder": "INBOX",
+    "subject": "Interested in product",
+    "from": "lead1@company.com",
+    "to": "test1@example.com",
+    "date": "2025-11-10T10:00:00Z",
+    "body": "I am very interested in your product. Please share next steps.",
+    "category": ""
+  },
+  {
+    "account": "test2@example.com",
+    "folder": "INBOX",
+    "subject": "Out of Office auto-reply",
+    "from": "someone@company.com",
+    "to": "test2@example.com",
+    "date": "2025-11-09T08:00:00Z",
+    "body": "I am currently out of office until next week.",
+    "category": ""
+  },
+  {
+    "account": "test1@example.com",
+    "folder": "Promotions",
+    "subject": "Special offer unsubscribe",
+    "from": "spam@promo.com",
+    "to": "test1@example.com",
+    "date": "2025-11-05T12:30:00Z",
+    "body": "This is spam. Unsubscribe here.",
+    "category": ""
+  }
+]
